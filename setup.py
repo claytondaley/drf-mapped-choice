@@ -30,7 +30,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     keywords=('drf restframework rest_framework django_rest_framework'
-              ' serializers drf_writable_nested'),
+              ' serializers drf_mapped_nested'),
     author='Clayton Daley III',
     author_email='clayton.daley+github@gmail.com',
     packages=['drf_mapped_choice'],
