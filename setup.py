@@ -25,8 +25,7 @@ setup(
     version=version,
     url='http://github.com/claytondaley/drf-mapped-choice',
     license='Apache 2.0',
-    description=(
-        ''),
+    description=(''),
     long_description=long_description,
     long_description_content_type='text/markdown',
     keywords=('drf restframework rest_framework django_rest_framework'
@@ -36,7 +35,7 @@ setup(
     packages=['drf_mapped_choice'],
     zip_safe=False,
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Framework :: Django :: 1.9',
