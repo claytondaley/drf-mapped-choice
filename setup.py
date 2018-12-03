@@ -15,7 +15,7 @@ def get_version(package):
     return re.search("__version__ = ['\"]([^'\"]+)['\"]", init_py).group(1)
 
 
-version = get_version('drf_writable_nested')
+version = get_version('drf_mapped_choice')
 with open('README.md') as f:
     long_description = f.read()
 
