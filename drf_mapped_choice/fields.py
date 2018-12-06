@@ -1,4 +1,4 @@
-from rest_framework import fields
+from rest_framework import fields, serializers
 
 
 class MappedChoiceField(fields.ChoiceField):
